@@ -4,10 +4,9 @@
 
 //Площадь квадрата
 // s=a*a
-let squareSide;
 
-function findSquareArea(squareSide) {
-	let squareArea = squareSide * squareSide;
+function findSquareArea(a) {
+	let squareArea = a * a;
 	return squareArea;
 }
 
@@ -18,8 +17,8 @@ console.log(findSquareArea(7));
 //Периметр квадрата
 // p=a*4
 
-function findSquarePerimeter(squareSide) {
-	let squarePerimeter = squareSide * 4;
+function findSquarePerimeter(a) {
+	let squarePerimeter = a * 4;
 	return squarePerimeter;
 }
 console.log(findSquarePerimeter(5));

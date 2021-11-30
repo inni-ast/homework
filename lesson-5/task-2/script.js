@@ -4,11 +4,9 @@
 
 //Площадь прямоугольника
 // s=a*b
-let rectangleFirstSide;
-let rectangleSecondSide;
 
-function findRectangleArea(rectangleFirstSide, rectangleSecondSide) {
-	let rectangleArea = rectangleFirstSide * rectangleSecondSide;
+function findRectangleArea(a, b) {
+	let rectangleArea = a * b;
 	return rectangleArea;
 }
 
@@ -19,8 +17,8 @@ console.log(findRectangleArea(7, 4));
 //Периметр прямоугольника
 // p=2*(a+b)
 
-function findRectanglePerimeter(rectangleFirstSide, rectangleSecondSide) {
-	let rectanglePerimeter = 2 * (rectangleFirstSide + rectangleSecondSide);
+function findRectanglePerimeter(a, b) {
+	let rectanglePerimeter = 2 * (a + b);
 	return rectanglePerimeter;
 }
 console.log(findRectanglePerimeter(5, 4));
