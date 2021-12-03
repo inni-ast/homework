@@ -1,0 +1,43 @@
+@import "print.css";
+/* для экранов до 768px*/
+@import "mobile.css";
+
+body {
+	height: 100%;
+	background-color: #f4ffe8;
+}
+section {
+	width: 90vw;
+	font-size: 2rem;
+	margin: 10px auto;
+	position: relative;
+}
+h1 {
+	position: sticky;
+	top: 1px;
+	margin: 0 0 20px 0;
+	text-align: center;
+	position: sticky;
+	background-color: #00ff40;
+}
+dt {
+	margin-bottom: 25px;
+	font-weight: 700;
+	margin-left: 80px;
+}
+dd {
+	margin: 0 0 20px 0;
+	padding: 10px 15px;
+}
+dd:nth-child(5n) {
+	background-color: #fff;
+}
+dd:nth-child(5n + 1) {
+	background-color: #ecff53;
+}
+dd:nth-child(5n + 2) {
+	background-color: #7cffbb;
+}
+dd:nth-child(5n + 3) {
+	background-color: #ff8ed4;
+}
