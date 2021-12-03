@@ -1,0 +1,21 @@
+@media print {
+	header,
+	footer,
+	img {
+		display: none;
+	}
+	div.wrapper {
+		background-color: white;
+	}
+	h1.block__header {
+		font-size: 1rem;
+		padding: 5px;
+	}
+	div.block__description {
+		position: static;
+		margin-left: 0;
+	}
+	@page {
+		margin: 2cm;
+	}
+}
