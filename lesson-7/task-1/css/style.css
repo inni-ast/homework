@@ -1,0 +1,92 @@
+@import "mobile.css";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 4rem;
+	text-align: center;
+	color: purple;
+	font-weight: bold;
+}
+
+.wrapper {
+	display: flex;
+	gap: 25px;
+	flex-direction: column;
+	border: 5px solid blue;
+	height: 160vh;
+	width: 90vw;
+	padding: 20px;
+	margin: 20px auto;
+	background-color: #eee;
+}
+.header {
+	background-color: blue;
+}
+.section-first {
+	display: flex;
+	gap: 25px;
+	height: 50vh;
+	justify-content: space-between;
+}
+.section-first__item {
+	flex: 0 1 10%;
+}
+.section-first__item-width {
+	flex: 0 1 75%;
+}
+.width {
+	display: flex;
+	height: 50vh;
+	flex-direction: column;
+	gap: 25px;
+}
+.red {
+	background-color: red;
+	flex-grow: 1;
+}
+.greenyellow {
+	background-color: greenyellow;
+	flex-grow: 5;
+}
+.peru {
+	background-color: peru;
+}
+.block {
+	background-color: olive;
+}
+.section-second {
+	display: flex;
+	gap: 25px;
+	height: 30vh;
+}
+.section-second__item {
+	flex: 1 0 45%;
+	background-color: cornflowerblue;
+}
+.section-third {
+	display: flex;
+	gap: 25px;
+	height: 50vh;
+}
+.section-third__elememt {
+	flex: 1 0 20%;
+}
+.coral {
+	background-color: coral;
+}
+.section-info {
+	display: flex;
+	gap: 25px;
+	height: 30vh;
+}
+.section-info__item {
+	flex-grow: 1;
+	background-color: lime;
+}
+.footer {
+	background-color: grey;
+}
