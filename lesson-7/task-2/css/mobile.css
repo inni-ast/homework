@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 0.8rem;
+	}
+	div.block {
+		flex-direction: column;
+	}
+	section.section {
+		height: 170vh;
+	}
+}

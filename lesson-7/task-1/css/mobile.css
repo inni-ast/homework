@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+	div.wrapper {
+		height: auto;
+	}
+	section.section-first,
+	section.section-second,
+	section.section-third,
+	section.section-info {
+		flex-direction: column;
+		height: auto;
+	}
+	div.width {
+		height: auto;
+	}
+}
